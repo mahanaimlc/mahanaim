@@ -15,27 +15,6 @@ window.addEventListener("load", function() {
     document.body.classList.add("loaded");
 });
 
-/**
- * PRELOAD
- * 
- * Loading will end after the document is loaded
- 
-
-const preloader = document.querySelector("[data-preload]");
-
-window.addEventListener("load", function() {
-    preloader.classList.add("loaded");
-    setTimeout(() => {
-        preloader.style.display = "none"; // Hide the preloader after animation
-    }, 500); // Adjust the delay if needed to ensure the animation completes
-});
-*/
-
-
-/**
- * add event listener on multiple elements
- */
-
 const addEventOnElements = function(elements, eventType, callback) {
     for (let i = 0, len = elements.length; i < len; i++) {
         elements[i].addEventListener(eventType, callback);
