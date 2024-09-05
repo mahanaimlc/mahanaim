@@ -1344,7 +1344,7 @@ html {
 }
 
 .testi .profile-name {
-    color: var(--gold-crayola);
+    color: var(--white);
     font-weight: var(--weight-bold);
     text-transform: uppercase;
     letter-spacing: var(--letterSpacing-3);
